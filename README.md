@@ -4,11 +4,13 @@ Modelo de api baseada no fastapi com autenticação completa.
 
 ## Instalação
 
-Instruções sobre como instalar e configurar o projeto.
-# Requisitos do projeto
+Instruções sobre como instalar e configurar o projeto.  
+# Requisitos do projeto  
 - python 3.12 >
+- postgresql
 - poetry 
 
+> Crie uma pasta `postgres-data` na raiz do projeto;
 
 ## Install poetry para gestão de dependencias:
 ubuntu (adapte a distribuição/sistema que utilizar):  
