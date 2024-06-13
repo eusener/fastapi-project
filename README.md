@@ -11,7 +11,8 @@ Instruções sobre como instalar e configurar o projeto.
 
 
 ## Install poetry para gestão de dependencias:
-ubuntu (adapte a distribuição/sistema que utilizar): 
+ubuntu (adapte a distribuição/sistema que utilizar):  
+
 `sudo apt install python3-pip python3.12-dev python3.12-full python3.12`
 `sudo apt install pipx`
 
@@ -19,13 +20,13 @@ ubuntu (adapte a distribuição/sistema que utilizar):
 `pipx install poetry`
 
 ### Restaurar dependencias do projeto
-`poetry shell`
+`poetry shell`  
 `poetry install`
 
 ### Adicionando pacotes ao projeto
 `poetry add [pacote]`
 
-### Adicionando pacotes de desenvolvimento ao projeto 
+### Adicionando pacotes de desenvolvimento ao projeto    
 `poetry add --group dev [pacote]`
 
 
