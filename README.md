@@ -72,6 +72,9 @@ Informações sobre a licença do projeto.
 `docker commit`  
 > docker commit cria uma nova imagem a partir das alterações feitas em um container.  
 
+## Iniciar um container e mapear a porta  
+`docker run -p [porta_container]:[porta_local] -name [nomeContainerDesejado] [imagemContainer]`  
+
 ## Networking no Docker
 
 `docker network`  
@@ -97,16 +100,15 @@ Informações sobre a licença do projeto.
 > Comunicação entre os Containers:
 
 Entre no primeiro container:  
-`docker exec -it container1 bash`
+`docker exec -it container1 bash`  
 `ping container2`  
 
 ### Encerramento e Limpeza:
-> Quando terminar, você pode sair dos containers e pará-los:
+> Quando terminar, você pode sair dos containers e pará-los:  
 `docker stop container1 container2`
 
 >Remover containers:  
 `docker rm container1 container2`
-
 `docker network rm minha-rede`  
 
 
